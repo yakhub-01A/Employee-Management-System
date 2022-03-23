@@ -1,0 +1,107 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Employee Management System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 699px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #141414;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-briefcase"></span> Employee Management System</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Office<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"><span class="glyphicon glyphicon-calendar"></span> Attendance</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Work Assignment</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-usd"></span> Salary</a></li>
+              </ul>
+              
+            </li>
+            <li><a href="#">Support</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Account</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#">Apply Leave</a></p>
+      <hr>
+      <p><a href="#">Contact</a></p>
+      
+    </div>
+    <div class="col-sm-10 text-left"> 
+        <h1 style="text-align: center;">
+          <b>HOPE YOU HAD A GOOD DAY</b>
+        </h1>
+        <hr>
+        <div>
+        <H4 style="margin-block: 25px;">
+          Leave Status 
+        
+          <div id="myDIV"; style="text-align: center;border-bottom: 6px solid red;
+          background-color: lightgrey;">Not Yet approved</div>
+          <hr>
+        </H4>
+        </div>
+        <h3 style="background-color: aliceblue; text-align: center;" >
+          “Sometimes I’ll start a sentence and I don’t even know where it’s going. I just hope I find it along the way.”
+        </h3>
+        <h3 style="background-color: aliceblue;text-align: center;">
+          “I talk a lot, so I’ve learned to tune myself out.”
+        </h3>
+        <h3 style="background-color: aliceblue;text-align: center;">
+          “If I don’t have some cake soon, I might die.”
+        </h3>
+
+      </div>
+    </div>    
+
+</div>
+
+
+</body>
+</html>
